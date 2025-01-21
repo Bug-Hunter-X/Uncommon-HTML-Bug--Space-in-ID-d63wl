@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML bug related to accessing elements by ID. The bug occurs when there is a space in the ID attribute of an HTML element.  The solution shows the correct way to access elements with IDs containing spaces.
