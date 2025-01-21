@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrect way to access element by ID with a space
+    document.getElementById("my Div").innerHTML = "This will not work."; 
+  </script>
+</body>
+</html>
